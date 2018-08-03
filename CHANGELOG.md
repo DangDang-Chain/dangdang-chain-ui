@@ -1580,26 +1580,3 @@ BUG FIXES:
 - Market page shows loading indicator if user doesn't have any account - it should suggest to create account instead #507
 
 
----------------------------------------------------------------------
-Release 2.0.151119
----------------------------------------------------------------------
-
-NEW FEATURES:
-- Warn users placing below the price market orders (e.g. 20% off market price) #445
-- Feedback while adjusting collateral slider #451
-- Account orders history on Exchange
-- Markets overview page redisign, improved market search functionality
-- Add 24h change and volume to markets list
-- Improved favorite/unvoriete markets functionality
-- Added support for deposits/withdrawals on blocktrades.us in bridge mode
-- Added filtering and current supply to Assets overview
-- Added TRADE.MUSE, METAFEES and OBITS to default favorite markets
-
-BUG FIXES:
-- Fixed several spelling and typos issues
-- Issue building with the latest node.js on Windows #481
-- "Promise not defined" build issue #488
-- Orderbook and market history colors are missing for some numbers #490
-- "Borrow Asset" window resets on new block on some accounts #505
-- Animation on create account page - helps to safe space
-- Fix asset creation fee estimation
